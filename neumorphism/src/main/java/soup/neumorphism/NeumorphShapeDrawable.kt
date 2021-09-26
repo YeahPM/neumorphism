@@ -15,7 +15,7 @@ import soup.neumorphism.internal.shape.PressedShape
 import soup.neumorphism.internal.shape.Shape
 import kotlin.math.min
 
-class NeumorphShapeDrawable : Drawable {
+open class NeumorphShapeDrawable : Drawable {
 
     private var drawableState: NeumorphShapeDrawableState
 

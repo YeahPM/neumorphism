@@ -9,7 +9,7 @@ import androidx.annotation.Dimension
 import androidx.annotation.StyleRes
 import kotlin.math.min
 
-class NeumorphShapeAppearanceModel {
+open class NeumorphShapeAppearanceModel {
 
     class Builder {
 
